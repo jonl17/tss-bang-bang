@@ -11,8 +11,8 @@ const Canvas = ({ text }: Props) => {
     if (canvas) {
       const context = canvas.getContext('2d')
       if (context) {
-        context.font = '600 35px Oswald'
-        context.fillStyle = 'rgb(52, 211, 153)'
+        context.font = '700 20px Oswald'
+        context.fillStyle = 'rgb(53, 191, 140)'
         context.textAlign = 'center'
 
         const string = text.toUpperCase() + ' '
