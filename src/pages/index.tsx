@@ -13,9 +13,9 @@ type Props = {
 
 export default function Home({ data: { imageSharp } }: Props) {
   return (
-    <div className='h-screen w-full bg-blue-300'>
+    <div className='h-screen w-full bg-gray-50'>
       <div className='grid place-items-center h-full w-full'>
-        <h1 className='text-8xl text-yellow-300'>TSS</h1>
+        <h1 className='text-8xl text-gray-800'>TSS</h1>
         <div className='absolute'>
           <Circle text='The Suburban Spaceman' />
         </div>
