@@ -19,14 +19,25 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className='absolute top-0 left-0 p-5 h-24'>
-        <Link to='/who-is-tss'>
-          <Icon
-            className='text-green-300 fill-current h-full'
-            type='questionMark'
-          />
-        </Link>
-      </div>
+      <Link
+        to='/who-is-tss'
+        className='absolute left-0 top-0 h-14 m-3'
+      >
+        <Icon
+          className='text-green-300 fill-current h-full'
+          type='questionMark'
+        />
+      </Link>
+      <a
+        href='https://open.spotify.com/artist/75WR8OP1SdDikvZdDqkjse?si=3JwOrCejRyqU018lefXnxg'
+        target='_blank'
+        className='absolute top-0 right-0 h-14 m-3'
+      >
+        <Icon
+          className='text-green-300 fill-current h-full'
+          type='musicStaff'
+        />
+      </a>
     </div>
   )
 }
