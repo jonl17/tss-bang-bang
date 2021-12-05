@@ -11,7 +11,7 @@ const Canvas = ({ text }: Props) => {
     if (canvas) {
       const context = canvas.getContext('2d')
       if (context) {
-        context.font = '600 35px Neausa'
+        context.font = '600 35px Oswald'
         context.fillStyle = 'gold'
         context.textAlign = 'center'
 

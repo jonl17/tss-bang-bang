@@ -6,6 +6,9 @@ module.exports = {
       animation: {
         'spin-slow': 'spin 10s linear infinite',
       },
+      fontFamily: {
+        body: ['Oswald', 'sans-serif'],
+      },
     },
   },
   variants: {
