@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        'spin-slow': 'spin 15s linear infinite',
+        'spin-slow': 'spin 30s linear infinite',
       },
       fontFamily: {
         body: ['Oswald', 'sans-serif'],
