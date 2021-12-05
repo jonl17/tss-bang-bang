@@ -5,7 +5,10 @@ const MainLayout: React.FC = ({ children }) => {
   return (
     <main>
       <Helmet>
-        <link rel='preconnect' href='https://fonts.googleapis.com' />
+        <link
+          rel='preconnect'
+          href='https://fonts.googleapis.com'
+        />
         <link
           rel='preconnect'
           href='https://fonts.gstatic.com'
@@ -15,7 +18,11 @@ const MainLayout: React.FC = ({ children }) => {
           href='https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap'
           rel='stylesheet'
         />
-        <link rel='icon' type='image/png' href='/favicon.png' />
+        <link
+          rel='icon'
+          type='image/png'
+          href='/favicon.png'
+        />
         <title>TSS | earth citizen</title>
         <meta
           property='description'

@@ -4,4 +4,7 @@
 
 html {
   @apply font-body;
+  @apply bg-gradient-to-b;
+  @apply from-black;
+  @apply to-gray-900;
 }
